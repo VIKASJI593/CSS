@@ -297,7 +297,7 @@ console.log(15.5%2)
 
 
 
-
+/*
 
 //-----------------assignment operator--------
 
@@ -342,45 +342,89 @@ console.log(a<30&&b>10)
 
 //--------------type of coercion---------
 
-
+//hello world
 console.log("hello "+'world')
 
 
+//hello 2
+console.log("hello "+2)
 
 
-console.log()
+
+//11
+console.log("1"+'1')
 
 
 
+//0
+console.log("1"-'1')
+
+
+*/
+
+
+
+
+
+
+//-----------------------------------------   ==vs===   ---------------------------------------------------------------------------
+/*
+//true
 console.log(1==1)
 
 
 
 
-console.log()
+//true
+console.log(1 =='1')
+
+
+//false
+console.log(1 !== 1)
+
+
+
+//false
+console.log(1 ==='1')
 
 
 
 
-console.log()
+//true
+console.log(1 !== '1')
+
+
+
+//false
+console.log(1 !== 1)
+*/
 
 
 
 
-console.log()
+//-----------------------------------ques------------------------
+/*
+//true
+console.log(null == undefined);
+
+
+
+//true
+if( -1 ) {
+  console.log("true")
+}
+else {
+  console.log("false")
+}
 
 
 
 
-
-console.log()
-
-
-
-
-
-
-
-
-
-
+//false
+if( "" ) {
+  console.log("true")
+}
+else {
+  console.log("false")
+}
+*/
