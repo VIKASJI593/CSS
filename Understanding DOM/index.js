@@ -36,12 +36,14 @@ console.log(screen)
 /*-------------------------------------------------------Fetching Elements-----------------------------------*/
 
 
-//document.getElementById('one')
 console.log(document.getElementById('one'))
-// #document
+// <h1 id = "one"> Heading </h1>
 
+//console.log(var Heading = document.getElementById('one')
 
+//console.log(Heading.style.color = 'red')
 
+//Heading.style.color = 'red';
 
 
 
