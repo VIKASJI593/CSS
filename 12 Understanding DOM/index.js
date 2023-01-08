@@ -36,7 +36,7 @@ console.log(screen)
 /*-------------------------------------------------------Fetching Elements-----------------------------------*/
 
 
-console.log(document.getElementById('one'))
+//console.log(document.getElementById('one'))
 // <h1 id = "one"> Heading </h1>
 
 //console.log(var Heading = document.getElementById('one')
@@ -47,9 +47,61 @@ console.log(document.getElementById('one'))
 
 
 
+/*
+
+document.getElementById('one');
+
+var Heading = document.getElementById('one');
+
+Heading.style.color = 'red';
+
+Heading.style.backgroundColor = 'cyan';
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
