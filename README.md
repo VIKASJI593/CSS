@@ -30,7 +30,7 @@ git commit -m "msg"
 
 git push -u origin branchname
 
-git push -f -u origin main
+git push -f -u origin master
 
 
 
