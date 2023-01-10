@@ -171,3 +171,22 @@ cat ~/.ssh/id_ed25519.pub
 
 Then select and copy the contents of the id_ed25519.pub file
 displayed in the terminal to your clipboard
+
+
+
+//vs code install in terminal after download
+-----cd Downloads/-------
+-----ls-------
+-----  sudo dpkg -i filename-----
+
+
+
+
+
+
+
+
+
+
+
+
