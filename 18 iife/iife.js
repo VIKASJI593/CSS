@@ -16,20 +16,20 @@ print ();
 
 
 //---------------------------------iife---------------------------------------
-
-(function(){
+/*
+(function () {
     var name = "file1"
-setTimeout(function(){
-    console.log(name);
-},1000);
+    setTimeout(function () {
+        console.log(name);
+    }, 1000);
 
 
-}) ();
+})();
 
 //file2
 //file1
 
-
+*/
 
 
 
@@ -47,10 +47,13 @@ setTimeout(function(){
 //file2
 */
 
-
-
-
-
+/*-----------------------------Let vs IIFE----------------------------*/
+{
+let fileName = "file1"
+setTimeout(function () {
+    console.log(fileName);
+}, 1000);
+}
 
 
 

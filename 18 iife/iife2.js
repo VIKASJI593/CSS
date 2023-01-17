@@ -11,7 +11,7 @@ print2 ();
 */
 
 //---------------------------------iife---------------------------------------
-
+/*
 (function(){
 var name = "file2"
     console.log(name);
@@ -20,7 +20,7 @@ var name = "file2"
 
 //file1
 //file2
-
+*/
 
 
 
@@ -32,6 +32,15 @@ var name = "file2"
 
 // //file1
 // //file2
+
+
+
+
+/*-----------------------------Let vs IIFE----------------------------*/
+
+
+let fileName = "file2"
+console.log(fileName);
 
 
 
