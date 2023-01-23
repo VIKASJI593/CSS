@@ -1,5 +1,3 @@
-
-
 // var para1 = document.getElementById('para1');
 // para1.innerHTML = "welcome";
 
@@ -15,26 +13,16 @@ return document.querySelector(query);
 }
 */
 
-
-
-
-
-
 /*
 $('#para1').text('welcome')
 //Welcome
 //sample paragraph
 */
 
-
-
-
 /*
 $('#para1').hide()
 //sample paragraph
 */
-
-
 
 /*
 $('#para1').width(1000)
@@ -42,9 +30,9 @@ $('#para1').width(1000)
 // sample paragraph
 */
 
-
-
+/*
 $('p').html("welcome");
+*/
 //welcome
 //welcome
 
@@ -57,8 +45,6 @@ jQuery.fn.init(2) [p#para1, p#para1, prevObject: jQuery.fn.init(1)]
 paras.html("changed");
 jQuery.fn.init(2) [p#para1, p#para1, prevObject: jQuery.fn.init(1)]
 */
-
-
 
 /*
 //output 2
@@ -105,180 +91,91 @@ jQuery.fn.init [p#para1]
 
 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*-----------Modifying CSS Using Query--------- */
+
+/*
+$('#para1').css('color','red');
+
+// sample paragraph
+
+// sample paragraph
+*/
+
+/*
+$('p').css('color','red');
+// sample paragraph
+
+// sample paragraph
+*/
+
+/*
+$('p').css('color','red');
+$('p').css('fontSize','30px');
+// sample paragraph
+
+// sample paragraph
+*/
+
+/*
+// Setting multiple properties.
+$( "p" ).css({
+    fontSize: "30px",
+    color: "red"
+});
+*/
+
+/*
+
+$( "p" ).css({
+    fontSize: "30px",
+    color: "red"
+});
+$('div').css({
+    width: "100px",
+    height: "100px",
+    backgroundColor:"cyan"
+});
+*/
+
+/*
+$( "p" ).css({
+    fontSize: "30px",
+    color: "red"
+});
+$('div').css({
+    width: "100px",
+    height: "100px",
+    backgroundColor: "cyan"
+});
+// $('div').click(function(){
+// alert("div clicked")
+// });
+
+$('div').on('click',function(){
+    alert("div clicked")
+    });
+*/
+
+$("p").css({
+  fontSize: "30px",
+  color: "grey",
+});
+
+$("div").css({
+  width: "100px",
+  height: "100px",
+  backgroundColor: "cyan",
+});
+// $('div').click(function(){
+// alert("div clicked")
+// });
+
+$("div").on("click", function () {
+  var element = $(this);
+  element.width(element.width() + 10 + "px");
+  // alert("div clicked")
+});
+$("a").on("click", function (Event) {
+  Event.preventDefault();
+  alert("Ancor tag Clicked");
+});
